@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #0d0e12;
+  color: #ffffff;
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+.feed-scroll {
+  scrollbar-width: none;
+}
+
+.feed-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.comment-scrollbar {
+  scrollbar-width: none;
+}
+
+.comment-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.auth-scrollbar {
+  scrollbar-width: none;
+}
+
+.auth-scrollbar::-webkit-scrollbar {
+  display: none;
+}
